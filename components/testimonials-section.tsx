@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card"
 const testimonials = [
   {
     id: 1,
-    name: "Sarah Johnson",
+    name: "Areeba",
     role: "Project Manager",
     company: "TrustNexus",
     content: "Muhammad Ali demonstrated exceptional technical skills while working on the NEXI Robot project. His React components were consistently high-quality and his collaborative approach made him a valuable team member. He delivered the super admin dashboard on time with excellent user experience.",
@@ -16,7 +16,7 @@ const testimonials = [
   },
   {
     id: 2,
-    name: "David Chen",
+    name: "Shahzaib",
     role: "Senior Developer",
     company: "TechCorp",
     content: "Working with Muhammad Ali on web development projects was a great experience. His problem-solving abilities and clean code practices significantly improved our project's performance and maintainability. His attention to detail in UI/UX is outstanding.",
@@ -25,7 +25,7 @@ const testimonials = [
   },
   {
     id: 3,
-    name: "Emily Rodriguez",
+    name: "Laiba",
     role: "UX Designer",
     company: "Design Studio",
     content: "Muhammad Ali's understanding of both frontend development and user experience made him an excellent collaborator. He always delivered pixel-perfect implementations and was great at translating design requirements into functional code.",

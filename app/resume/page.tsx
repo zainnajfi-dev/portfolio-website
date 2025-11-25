@@ -25,17 +25,28 @@ const experience = [
   {
     title: "Intern",
     company: "FES Higher Education Consultants Pvt. Ltd.",
-    period: "3 months",
+    period: "2 months",
     description:
       "Learned global university processes, educational marketing strategies, and student guidance methodologies. Assisted in developing digital marketing campaigns.",
   },
+  {title: "Frontend Developer Intern",
+company: "Lean Automation",
+period: "6 months",
+description:
+  "Worked on developing modern, responsive UI components for industrial automation dashboards using React and Tailwind CSS. Improved performance, implemented clean component structures, and collaborated with senior developers to translate requirements into user-friendly interfaces.",
+},
+{title: "Freelance Web Developer",
+company: "Fiverr",
+period: "2024 - Present",
+description:
+  "Delivering modern, responsive websites and custom React-based interfaces for international clients. Built landing pages, business websites, and optimized UI components while ensuring high-quality code, strong communication, and on-time delivery.",
+},
 ]
 
 const skills = {
   Frontend: ["React.js", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Figma"],
   Backend: ["Node.js", "Express.js", "Firebase", "MongoDB", "REST APIs", "JWT Auth"],
-  Mobile: ["Flutter", "Dart", "Firebase"],
-  Tools: ["GitHub", "Vercel", "Netlify", "Trello", "Cursor AI"],
+  Tools: ["GitHub", "Vercel", "Netlify", "Trello", "Cursor AI", "Postman", "VS Code", "Chrome DevTools", "Figma", "Bolt AI", "v0.dev"],
   Concepts: ["Responsive Design", "State Management", "CI/CD", "API Integration", "UI/UX"],
 }
 
@@ -54,7 +65,7 @@ export default function ResumePage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-emerald-600 hover:bg-emerald-700">
               <a
-                href="https://drive.google.com/file/d/1ABsTTWTTCRuDdnMXrtF52Gp5M7WhdVpK/view?usp=sharing"
+                href="https://drive.google.com/file/d/13mDmMKVt5oWv_yuA2WM-VXdxlnVsAfWr/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -104,7 +115,7 @@ export default function ResumePage() {
                 </div>
                 <div className="flex items-center justify-center md:justify-start space-x-2">
                   <MapPin className="w-5 h-5 text-emerald-400" />
-                  <span className="text-gray-300">Islamabad, Pakistan</span>
+                  <span className="text-gray-300">Lahore, Pakistan</span>
                 </div>
               </div>
             </CardContent>

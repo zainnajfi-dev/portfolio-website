@@ -21,7 +21,7 @@ export function Footer() {
                 </div>
               </div>
               <div>
-                <div className="font-bold text-lg text-white">Muhammad Ali Zain</div>
+                <div className="font-bold text-lg text-white">Muhammad Ali Zain Ul Abidin</div>
                 <div className="text-sm text-gray-400">Full Stack Developer</div>
               </div>
             </div>
@@ -110,7 +110,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-700/50 mt-12 pt-8 text-center">
-          <p className="text-sm text-gray-400">&copy; 2025 Muhammad Ali Zain Ul Abidin. All rights reserved.</p>
+          <p className="text-sm text-gray-400">&copy; 2024 - 2025 Muhammad Ali Zain Ul Abidin. All rights reserved.</p>
         </div>
       </div>
     </footer>

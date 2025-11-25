@@ -10,9 +10,9 @@ const experiences = [
     id: 1,
     title: "Frontend Developer Intern",
     company: "TrustNexus",
-    duration: "6 months",
-    location: "Remote",
-    period: "Jan 2024 - Jun 2024",
+    duration: "4 months",
+    location: "Onsite - Islamabad, Pakistan",
+    period: "July 2025 - October 2025",
     description:
       "Worked on a real project developing the NEXI Robot super admin dashboard and UI. Built production-ready interfaces using React, Tailwind CSS, and modern component-driven development. Collaborated with cross-functional teams to deliver high-quality user experiences.",
     achievements: [
@@ -31,9 +31,9 @@ const experiences = [
     id: 2,
     title: "Summer Intern",
     company: "FES Higher Education Consultants Pvt. Ltd.",
-    duration: "2 months",
-    location: "Islamabad, Pakistan",
-    period: "Jun 2023 - Aug 2023",
+    duration: "3 months",
+    location: "Onsite - Abbottabad, Pakistan",
+    period: "July 2025 - September 2025",
     description:
       "Learned about global university processes, student counseling, educational marketing strategies, and documentation processes. Assisted in developing digital marketing campaigns and student guidance programs.",
     achievements: [
@@ -47,6 +47,64 @@ const experiences = [
     color: "from-green-500 to-emerald-600",
     type: "Consulting",
   },
+  {
+  id: 3,
+  title: "Frontend Developer Intern",
+  company: "Lean Automation",
+  duration: "4 months",
+  location: "Remote",
+  period: "March 2025 - June 2025",
+  description:
+    "Contributed to the development of modern, responsive web solutions for industrial automation workflows. Built clean and optimized UI components, improved front-end performance, and collaborated closely with senior developers to transform business requirements into functional interfaces.",
+  achievements: [
+    "Developed responsive and reusable React components for internal automation dashboards",
+    "Converted Figma wireframes into pixel-perfect UI using React and Tailwind CSS",
+    "Optimized component structure and improved UI performance by reducing unnecessary re-renders",
+    "Integrated REST APIs for real-time data updates and device monitoring features",
+    "Worked in an Agile environment and contributed to sprints, standups, and code reviews",
+  ],
+  technologies: [
+    "React.js",
+    "JavaScript",
+    "Tailwind CSS",
+    "REST APIs",
+    "Git",
+    "Figma"
+  ],
+  icon: Code,
+  color: "from-emerald-500 to-teal-600",
+  type: "Development",
+},
+{
+  id: 4,
+  title: "Freelance Web Developer",
+  company: "Fiverr",
+  duration: "Ongoing",
+  location: "Remote",
+  period: "2023 - Present",
+  description:
+    "Delivering modern, responsive, and user-focused websites for global clients on Fiverr. Specializing in React-based frontends, landing pages, portfolio websites, and full website redesigns. Maintain strong communication, timely delivery, and high client satisfaction.",
+  achievements: [
+    "Completed multiple projects with 5-star client feedback and repeat orders",
+    "Developed responsive landing pages and business websites using React and Tailwind CSS",
+    "Converted client ideas and wireframes into fully functional UI with clean, maintainable code",
+    "Integrated APIs, forms, and custom animations to enhance user engagement",
+    "Optimized websites for speed, performance, SEO, and mobile responsiveness",
+  ],
+  technologies: [
+    "React.js",
+    "Next.js",
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "Tailwind CSS",
+    "Git",
+    "Figma"
+  ],
+  icon: Code,
+  color: "from-purple-500 to-indigo-600",
+  type: "Freelance",
+},
 ]
 
 const education = {
@@ -111,7 +169,7 @@ export default function ExperiencePage() {
                       <div className="flex items-center gap-3 mb-2">
                         <CardTitle className="text-2xl text-white">{education.degree}</CardTitle>
                         <span className="px-3 py-1 rounded-full text-xs font-medium bg-purple-500/20 text-purple-400 border border-purple-500/30">
-                          Graduating 2025
+                          Graduated - 2025
                         </span>
                       </div>
                       <div className="flex items-center space-x-4 text-gray-300">

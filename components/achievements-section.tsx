@@ -9,7 +9,7 @@ const achievements = [
     title: "Dean's List Award",
     organization: "COMSATS University Islamabad",
     year: "2023",
-    description: "Recognized for academic excellence and maintaining a GPA above 3.8",
+    description: "Recognized for academic excellence",
     color: "from-yellow-500 to-orange-600",
     type: "Academic"
   },
@@ -17,7 +17,7 @@ const achievements = [
     id: 2,
     title: "Best Final Year Project",
     organization: "Software Engineering Department",
-    year: "2024",
+    year: "2024-2025",
     description: "ConstructCraft mobile app recognized for innovation and technical excellence",
     color: "from-blue-500 to-cyan-600",
     type: "Project"
@@ -26,7 +26,7 @@ const achievements = [
     id: 3,
     title: "Outstanding Intern Award",
     organization: "TrustNexus",
-    year: "2024",
+    year: "2025",
     description: "Recognized for exceptional performance and contribution to NEXI Robot project",
     color: "from-green-500 to-emerald-600",
     type: "Professional"
@@ -35,7 +35,7 @@ const achievements = [
     id: 4,
     title: "Hackathon Winner",
     organization: "University Tech Fest",
-    year: "2023",
+    year: "2024",
     description: "First place in web development category for innovative solution",
     color: "from-purple-500 to-pink-600",
     type: "Competition"
@@ -65,7 +65,7 @@ const certifications = [
     id: 3,
     title: "Node.js Backend Development",
     organization: "Udemy",
-    year: "2023",
+    year: "2022",
     description: "Server-side JavaScript development and RESTful API design",
     color: "from-green-500 to-emerald-600",
     type: "Backend"

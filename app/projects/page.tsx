@@ -52,7 +52,34 @@ const projects = [
     highlights: ["Payment integration", "Product management", "Order tracking", "Admin panel"]
   },
   {
-    id: 4,
+  id: 4,
+  title: "United Associates Real Estate Website",
+  description:
+    "A modern and fully responsive real estate website built for United Associates to showcase property listings, company profile, and client services. Designed a clean UI with smooth navigation, optimized performance, and a professional brand look.",
+  image: "/financetracker-project.png",
+  technologies: ["React.js", "Tailwind CSS", "JavaScript", "Email.js", "Figma"],
+  liveUrl: "https://unitedassociate.com/",
+  githubUrl: "https://github.com/zainnajfi-dev/United-Associates",
+  status: "Live",
+  year: "2025",
+  category: "Real Estate",
+  features: [
+    "Responsive Modern UI",
+    "Property Listings Page",
+    "Company Profile Section",
+    "Contact Form Integration",
+    "Smooth Animations",
+    "Mobile-Optimized Layout"
+  ],
+  highlights: [
+    "Pixel-perfect frontend",
+    "Fast performance",
+    "SEO-friendly structure",
+    "Brand-consistent design"
+  ]
+},
+  {
+    id: 5,
     title: "ConstructCraft Management",
     description: "A construction management platform for project planning, resource allocation, and progress tracking. Features include Gantt charts, team collaboration, and document management.",
     image: "/constructcraft.svg",
@@ -66,7 +93,7 @@ const projects = [
     highlights: ["Project tracking", "Resource allocation", "Team collaboration", "Document management"]
   },
   {
-    id: 5,
+    id: 6,
     title: "TaskFlow Pro",
     description: "A comprehensive task management application with Kanban boards, time tracking, and team collaboration features. Perfect for project managers and development teams.",
     image: "/taskflow-pro.svg",
@@ -80,7 +107,7 @@ const projects = [
     highlights: ["Drag & drop interface", "Time tracking", "Team collaboration", "Progress analytics"]
   },
   {
-    id: 6,
+    id: 7,
     title: "WeatherHub Dashboard",
     description: "A beautiful weather application with real-time data, 7-day forecasts, and interactive maps. Features location-based weather alerts and historical data visualization.",
     image: "/weatherhub.svg",
@@ -94,7 +121,7 @@ const projects = [
     highlights: ["Real-time data", "Interactive maps", "Weather alerts", "Data visualization"]
   },
   {
-    id: 7,
+    id: 8,
     title: "FinanceTracker Pro",
     description: "A personal finance management tool with expense tracking, budget planning, and financial analytics. Features include multiple account support and investment portfolio tracking.",
     image: "/financetracker-project.png",
@@ -106,20 +133,6 @@ const projects = [
     category: "Finance",
     features: ["Expense Tracking", "Budget Planning", "Financial Analytics", "Multiple Accounts", "Investment Tracking"],
     highlights: ["Expense tracking", "Budget planning", "Financial analytics", "Investment tracking"]
-  },
-  {
-    id: 8,
-    title: "RecipeHub Discovery",
-    description: "A recipe discovery and meal planning platform with search functionality, user-generated content, and nutritional information. Features include meal planning and shopping list generation.",
-    image: "/recipehub.svg",
-    technologies: ["Next.js", "TypeScript", "PostgreSQL", "Spoonacular API", "Tailwind CSS"],
-    liveUrl: "#",
-    githubUrl: "#",
-    status: "Demo",
-    year: "2025",
-    category: "Food & Recipe",
-    features: ["Recipe Discovery", "Meal Planning", "Nutritional Info", "Shopping Lists", "User Content"],
-    highlights: ["Recipe discovery", "Meal planning", "Nutritional info", "Shopping lists"]
   },
 ]
 
