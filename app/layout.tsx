@@ -7,6 +7,7 @@ import { Footer } from "@/components/footer"
 import { AnimatedBackground } from "@/components/animated-background"
 import { ScrollToTop } from "@/components/scroll-to-top"
 import { Toaster } from "@/components/ui/toaster"
+import { Analytics } from "@vercel/analytics/next"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -32,6 +33,7 @@ export default function RootLayout({
         <Footer />
         <ScrollToTop />
         <Toaster />
+        <Analytics />
       </body>
     </html>
   )
