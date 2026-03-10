@@ -7,6 +7,8 @@ import { Footer } from "@/components/footer"
 import { AnimatedBackground } from "@/components/animated-background"
 import { ScrollToTop } from "@/components/scroll-to-top"
 import { Toaster } from "@/components/ui/toaster"
+import { Analytics } from "@vercel/analytics/next"
+import type { AppProps } from 'next/app';
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -17,7 +19,14 @@ export const metadata: Metadata = {
   keywords: "Software Engineer, Full Stack Developer, React.js, TypeScript, Node.js, Web Development, COMSATS University",
   generator: 'Next.js'
 }
-
+function MyApp({ Component, pageProps }: AppProps) {
+  return (
+    <>
+      <Component {...pageProps} />
+      <Analytics />
+    </>
+  );
+}
 export default function RootLayout({
   children,
 }: {
