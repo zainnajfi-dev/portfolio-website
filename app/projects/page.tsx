@@ -11,10 +11,39 @@ import Image from "next/image"
 const projects = [
   {
     id: 1,
+    title: "Nigah e Hussain",
+    description: "A premium construction and renovation services platform for Mr. Ahmed Malik's company. Features include service showcasing, portfolio display with before & after project views, client testimonials, and an inquiry contact form.",
+    image: "/nigahehussain.png",
+    technologies: ["React.js", "Next.js", "Javascript", " Framer Motion"],
+    liveUrl: "https://www.nigahehussain.com/",
+    githubUrl: "https://github.com/zainnajfi-dev/nigahehussain-site",
+    status: "Live",
+    year: "2026",
+    category: "Construction & Renovation Services",
+    features: [ "Service Showcase (Construction, Renovation, Interior Design, AutoCAD, Project Management)", "Portfolio with Before & After Project Views", "Client Testimonials & Reviews", "Contact & Inquiry Form", "WhatsApp & Instagram Integration", "Company Profile PDF Download" ],
+    highlights: [ "7+ years of expertise showcased", "98% satisfaction rate", "Multi-location office support (Islamabad & Sargodha)", "150+ happy clients displayed", "Free site visit CTA"]
+  },
+  {
+    id: 2,
+    title: "United Associates Real Estate Website",
+    description:
+      "A modern and fully responsive real estate website built for United Associates to showcase property listings, company profile, and client services. Designed a clean UI with smooth navigation, optimized performance, and a professional brand look.",
+    image: "/unitedassociates.png",
+    technologies: ["React.js", "Next.js", "JavaScript", "Framer Motion", "Figma"],
+    liveUrl: "https://unitedassociate.com/",
+    githubUrl: "https://github.com/zainnajfi-dev",
+    status: "Live",
+    year: "2025",
+    category: "Real Estate",
+    features: [ "Responsive Modern UI", "Property Listings Page", "Company Profile Section", "Contact Form Integration", "Smooth Animations", "Mobile-Optimized Layout" ],
+    highlights: [ "Pixel-perfect frontend", "Fast performance", "SEO-friendly structure", "Brand-consistent design" ]
+  },
+  {
+    id: 3,
     title: "MedSpark Pre-Medical College",
     description: "A comprehensive healthcare management system with patient records, appointment scheduling, and medical inventory tracking. Features a modern dashboard with real-time analytics and secure data management.",
-    image: "/medspark-project.svg",
-    technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Tailwind CSS"],
+    image: "/medsparkproject.png",
+    technologies: ["MongoDB", "Express.js", "React.js", "Node.js"],
     liveUrl: "https://meds-spark.vercel.app/",
     githubUrl: "https://github.com/zainnajfi-dev/MedsSpark",
     status: "Live",
@@ -24,84 +53,43 @@ const projects = [
     highlights: ["Full-stack application", "Real-time updates", "Responsive design", "Admin dashboard"]
   },
   {
-    id: 2,
+    id: 4,
     title: "DevConnect Social",
     description: "A social platform for developers to connect, share projects, and collaborate. Features include user profiles, project showcases, real-time messaging, and community forums.",
-    image: "/devconnect-project.svg",
-    technologies: ["Next.js", "TypeScript", "Firebase", "Tailwind CSS", "Framer Motion"],
+    image: "/devconnectproject.png",
+    technologies: ["Next.js", "TypeScript", "CSS", "HTML"],
     liveUrl: "https://devconnect-platform-mu.vercel.app/",
     githubUrl: "https://github.com/zainnajfi-dev/devconnect-platform",
     status: "Live",
-    year: "2023",
+    year: "2024",
     category: "Social Network",
     features: ["User Profiles", "Project Showcase", "Real-time Chat", "Community Forums", "Social Networking"],
     highlights: ["Real-time messaging", "User authentication", "Project sharing", "Community features"]
   },
   {
-    id: 3,
+    id: 5,
     title: "SystemsLimited E-commerce",
     description: "A modern e-commerce platform clone with advanced product management, shopping cart functionality, and secure payment processing. Features responsive design and admin dashboard.",
-    image: "/systemslimited-clone.svg",
-    technologies: ["React.js", "Redux", "Node.js", "MongoDB", "Stripe API"],
+    image: "/systemslimitedclone.png",
+    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     liveUrl: "https://systems-ltd-clone.vercel.app/",
     githubUrl: "https://github.com/zainnajfi-dev/systems-ltd-clone",
     status: "Live",
-    year: "2024",
+    year: "2023",
     category: "E-commerce",
     features: ["Product Catalog", "Shopping Cart", "Payment Processing", "Admin Dashboard", "Order Management"],
     highlights: ["Payment integration", "Product management", "Order tracking", "Admin panel"]
   },
   {
-  id: 4,
-  title: "United Associates Real Estate Website",
-  description:
-    "A modern and fully responsive real estate website built for United Associates to showcase property listings, company profile, and client services. Designed a clean UI with smooth navigation, optimized performance, and a professional brand look.",
-  image: "/financetracker-project.png",
-  technologies: ["React.js", "Tailwind CSS", "JavaScript", "Email.js", "Figma"],
-  liveUrl: "https://unitedassociate.com/",
-  githubUrl: "https://github.com/zainnajfi-dev/United-Associates",
-  status: "Live",
-  year: "2025",
-  category: "Real Estate",
-  features: [
-    "Responsive Modern UI",
-    "Property Listings Page",
-    "Company Profile Section",
-    "Contact Form Integration",
-    "Smooth Animations",
-    "Mobile-Optimized Layout"
-  ],
-  highlights: [
-    "Pixel-perfect frontend",
-    "Fast performance",
-    "SEO-friendly structure",
-    "Brand-consistent design"
-  ]
-},
-  {
-    id: 5,
-    title: "ConstructCraft Management",
-    description: "A construction management platform for project planning, resource allocation, and progress tracking. Features include Gantt charts, team collaboration, and document management.",
-    image: "/constructcraft.svg",
-    technologies: ["Flutter", "Dart", "Firebase", "Chart.js"],
-    liveUrl: "#",
-    githubUrl: "https://github.com/zainnajfi-dev",
-    status: "In Progress",
-    year: "2024-2025",
-    category: "Construction Project Management",
-    features: ["Project Planning", "Resource Management", "Progress Tracking", "Team Collaboration", "Document Management"],
-    highlights: ["Project tracking", "Resource allocation", "Team collaboration", "Document management"]
-  },
-  {
     id: 6,
     title: "TaskFlow Pro",
     description: "A comprehensive task management application with Kanban boards, time tracking, and team collaboration features. Perfect for project managers and development teams.",
-    image: "/taskflow-pro.svg",
-    technologies: ["React.js", "TypeScript", "Firebase", "Tailwind CSS", "DnD Kit"],
+    image: "/taskflowpro.png",
+    technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "Framer Motion", "Multer", "JWT"],
     liveUrl: "#",
     githubUrl: "#",
     status: "Demo",
-    year: "2025",
+    year: "2026",
     category: "Productivity",
     features: ["Kanban Boards", "Time Tracking", "Team Collaboration", "Progress Analytics", "Custom Workflows"],
     highlights: ["Drag & drop interface", "Time tracking", "Team collaboration", "Progress analytics"]
@@ -110,12 +98,12 @@ const projects = [
     id: 7,
     title: "WeatherHub Dashboard",
     description: "A beautiful weather application with real-time data, 7-day forecasts, and interactive maps. Features location-based weather alerts and historical data visualization.",
-    image: "/weatherhub.svg",
+    image: "/weatherhub.png",
     technologies: ["Next.js", "TypeScript", "OpenWeather API", "Chart.js", "Mapbox"],
     liveUrl: "#",
     githubUrl: "#",
     status: "Demo",
-    year: "2025",
+    year: "2026",
     category: "Weather",
     features: ["Real-time Weather", "7-day Forecast", "Interactive Maps", "Weather Alerts", "Historical Data"],
     highlights: ["Real-time data", "Interactive maps", "Weather alerts", "Data visualization"]
@@ -124,19 +112,19 @@ const projects = [
     id: 8,
     title: "FinanceTracker Pro",
     description: "A personal finance management tool with expense tracking, budget planning, and financial analytics. Features include multiple account support and investment portfolio tracking.",
-    image: "/financetracker-project.png",
+    image: "/financetracker.png",
     technologies: ["React.js", "Node.js", "MongoDB", "Chart.js", "JWT Auth"],
     liveUrl: "#",
     githubUrl: "#",
     status: "Demo",
-    year: "2025",
+    year: "2026",
     category: "Finance",
     features: ["Expense Tracking", "Budget Planning", "Financial Analytics", "Multiple Accounts", "Investment Tracking"],
     highlights: ["Expense tracking", "Budget planning", "Financial analytics", "Investment tracking"]
   },
 ]
 
-const categories = ["All", "Healthcare", "Social Network", "E-commerce", "Project Management", "Productivity", "Weather", "Finance", "Food & Recipe"]
+
 
 export default function ProjectsPage() {
   return (
@@ -153,17 +141,17 @@ export default function ProjectsPage() {
             <h1 className="text-4xl md:text-6xl font-bold mb-6 gradient-text">My Projects</h1>
             <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed mb-8">
               A showcase of my web development projects, from full-stack applications to modern user interfaces. 
-              Each project demonstrates my expertise in React.js, TypeScript, and modern web technologies.
+              My projects demonstrate my expertise in MongoDB, Express.js, React.js, Node.js, JavaScript, TypeScript, Framer Motion, Bootstrap, Figma, Git, Tailwind CSS, OpenWeather API, Chart.js, Mapbox, JWT Auth, Multer and also exploring other modern web technologies.
             </p>
             
             {/* Project Statistics */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto">
               <div className="text-center p-4 bg-gray-800/30 rounded-xl border border-gray-700/50">
-                <div className="text-2xl font-bold text-emerald-400 mb-1">4</div>
+                <div className="text-2xl font-bold text-emerald-400 mb-1">8</div>
                 <div className="text-sm text-gray-400">Live Projects</div>
               </div>
               <div className="text-center p-4 bg-gray-800/30 rounded-xl border border-gray-700/50">
-                <div className="text-2xl font-bold text-blue-400 mb-1">4</div>
+                <div className="text-2xl font-bold text-blue-400 mb-1">12</div>
                 <div className="text-sm text-gray-400">Demo Projects</div>
               </div>
               <div className="text-center p-4 bg-gray-800/30 rounded-xl border border-gray-700/50">
@@ -171,7 +159,7 @@ export default function ProjectsPage() {
                 <div className="text-sm text-gray-400">Technologies</div>
               </div>
               <div className="text-center p-4 bg-gray-800/30 rounded-xl border border-gray-700/50">
-                <div className="text-2xl font-bold text-orange-400 mb-1">2025</div>
+                <div className="text-2xl font-bold text-orange-400 mb-1">2026</div>
                 <div className="text-sm text-gray-400">Latest Project</div>
               </div>
             </div>
@@ -184,18 +172,7 @@ export default function ProjectsPage() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="flex flex-wrap justify-center gap-3 mb-12"
           >
-            {categories.map((category, index) => (
-              <Button
-                key={category}
-                variant="outline"
-                size="sm"
-                className={`border-gray-600 text-gray-300 hover:bg-emerald-500/10 hover:border-emerald-500/30 hover:text-emerald-300 transition-all ${
-                  category === "All" ? "bg-emerald-500/20 border-emerald-500/30 text-emerald-300" : ""
-                }`}
-              >
-                {category}
-              </Button>
-            ))}
+            
           </motion.div>
 
           {/* Projects Grid */}

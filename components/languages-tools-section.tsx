@@ -7,39 +7,45 @@ import { Progress } from "@/components/ui/progress"
 
 const languages = [
   {
-    name: "JavaScript",
+    name: "Express.js",
     level: "Advanced",
-    percentage: 95,
-    color: "from-yellow-500 to-orange-600"
-  },
-  {
-    name: "TypeScript",
-    level: "Advanced",
-    percentage: 90,
+    percentage: 80,
     color: "from-blue-600 to-blue-700"
   },
   {
-    name: "HTML/CSS",
+    name: "React.js",
     level: "Advanced",
-    percentage: 95,
+    percentage: 85,
     color: "from-orange-500 to-pink-600"
   },
   {
-    name: "Python",
-    level: "Intermediate",
-    percentage: 75,
+    name: "Node.js",
+    level: "Advanced",
+    percentage: 80,
     color: "from-blue-500 to-cyan-600"
   },
   {
-    name: "SQL",
-    level: "Intermediate",
-    percentage: 80,
+    name: "HTML",
+    level: "Advanced",
+    percentage: 90,
     color: "from-purple-500 to-indigo-600"
   },
   {
-    name: "PHP",
+    name: "CSS",
+    level: "Advanced",
+    percentage: 90,
+    color: "from-purple-600 to-pink-600"
+  },
+  {
+    name: "JavaScript",
+    level: "Advanced",
+    percentage: 80,
+    color: "from-purple-600 to-pink-600"
+  },
+  {
+    name: "Python",
     level: "Basic",
-    percentage: 60,
+    percentage: 50,
     color: "from-purple-600 to-pink-600"
   }
 ]
@@ -59,7 +65,7 @@ const tools = [
   },
   {
     name: "v0.dev",
-    description: "AI-Powered Development",
+    description: "UI/UX Development",
     icon: Zap,
     color: "from-purple-500 to-pink-600"
   },
@@ -70,7 +76,7 @@ const tools = [
     color: "from-emerald-500 to-teal-600"
   },
   {
-    name: "Firebase Studio",
+    name: "MongoDB Compass",
     description: "Database Management & Analytics",
     icon: Database,
     color: "from-orange-500 to-yellow-600"
@@ -88,7 +94,7 @@ const tools = [
     color: "from-blue-600 to-indigo-600"
   },
   {
-    name: "Manus",
+    name: "Claude",
     description: "AI-Powered Code Review",
     icon: Monitor,
     color: "from-green-500 to-emerald-600"

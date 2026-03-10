@@ -22,39 +22,39 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
 const techStack = [
   {
-    name: "React.js",
-    description: "Frontend Development",
-    icon: FileCode,
-    color: "from-blue-500 to-cyan-600",
+    name: "MongoDB",
+    description: "Database Management",
+    icon: Database,
+    color: "from-green-500 to-emerald-600",
     level: "Advanced"
   },
   {
-    name: "TypeScript",
-    description: "Type Safety & Development",
-    icon: Type,
+    name: "Express.js",
+    description: "Backend Framework",
+    icon: Server,
     color: "from-blue-600 to-blue-700",
     level: "Advanced"
   },
   {
-    name: "Next.js",
-    description: "Full Stack Framework",
+    name: "React.js",
+    description: "Frontend Framework",
     icon: Globe,
     color: "from-gray-700 to-gray-900",
     level: "Advanced"
   },
   {
     name: "Node.js",
-    description: "Backend Development",
+    description: "Runtime Environment",
     icon: Server,
     color: "from-green-500 to-emerald-600",
     level: "Intermediate"
   },
   {
-    name: "Tailwind CSS",
-    description: "Styling & Design",
-    icon: Palette,
+    name: "JavaScript",
+    description: "Programming Language",
+    icon: FileCode,
     color: "from-cyan-500 to-blue-600",
-    level: "Advanced"
+    level: "Intermediate"
   },
   {
     name: "Redux",
@@ -64,11 +64,11 @@ const techStack = [
     level: "Intermediate"
   },
   {
-    name: "Firebase",
-    description: "Backend Services",
+    name: "Framer Motion",
+    description: "Animation Library",
     icon: Flame,
     color: "from-orange-500 to-yellow-600",
-    level: "Intermediate"
+    level: "Advanced"
   },
   {
     name: "REST APIs",

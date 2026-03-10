@@ -9,16 +9,16 @@ const testimonials = [
     id: 1,
     name: "Areeba",
     role: "Project Manager",
-    company: "TrustNexus",
+    company: "TrustNexus - Islamabad, Pakistan",
     content: "Muhammad Ali demonstrated exceptional technical skills while working on the NEXI Robot project. His React components were consistently high-quality and his collaborative approach made him a valuable team member. He delivered the super admin dashboard on time with excellent user experience.",
     rating: 5,
     avatar: "👩‍💼"
   },
   {
     id: 2,
-    name: "Shahzaib",
+    name: "Zurgham",
     role: "Senior Developer",
-    company: "TechCorp",
+    company: "ZAIN Telecom - Baghdad, Iraq",
     content: "Working with Muhammad Ali on web development projects was a great experience. His problem-solving abilities and clean code practices significantly improved our project's performance and maintainability. His attention to detail in UI/UX is outstanding.",
     rating: 5,
     avatar: "👨‍💻"
@@ -26,8 +26,8 @@ const testimonials = [
   {
     id: 3,
     name: "Laiba",
-    role: "UX Designer",
-    company: "Design Studio",
+    role: "UI/UX Designer",
+    company: "Robotics World - Abbottabad, Pakistan",
     content: "Muhammad Ali's understanding of both frontend development and user experience made him an excellent collaborator. He always delivered pixel-perfect implementations and was great at translating design requirements into functional code.",
     rating: 5,
     avatar: "👩‍🎨"

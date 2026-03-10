@@ -7,8 +7,8 @@ const achievements = [
   {
     id: 1,
     title: "Dean's List Award",
-    organization: "COMSATS University Islamabad",
-    year: "2023",
+    organization: "COMSATS University",
+    year: "2024",
     description: "Recognized for academic excellence",
     color: "from-yellow-500 to-orange-600",
     type: "Academic"
@@ -18,7 +18,7 @@ const achievements = [
     title: "Best Final Year Project",
     organization: "Software Engineering Department",
     year: "2024-2025",
-    description: "ConstructCraft mobile app recognized for innovation and technical excellence",
+    description: "ConstructCraft app recognized for innovation and technical excellence",
     color: "from-blue-500 to-cyan-600",
     type: "Project"
   },

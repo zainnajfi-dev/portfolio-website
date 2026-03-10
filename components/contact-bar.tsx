@@ -24,7 +24,7 @@ export function ContactBar() {
           className="flex items-center space-x-2 text-sm text-gray-300 hover:text-emerald-400 transition-colors group"
         >
           <Phone size={16} className="group-hover:scale-110 transition-transform" />
-          <span className="hidden sm:inline">+92 300 1234567</span>
+          <span className="hidden sm:inline">+92 322 0748472</span>
         </a>
         <a
           href="https://github.com/zainnajfi-dev"

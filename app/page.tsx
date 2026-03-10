@@ -93,7 +93,7 @@ export default function HomePage() {
                   className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-emerald-500/20 to-cyan-500/20 border border-emerald-500/30 rounded-full text-emerald-300 text-sm font-medium mb-8 shadow-lg"
                 >
                   <GraduationCap className="w-4 h-4" />
-                  BS Software Engineering • COMSATS University Islamabad
+                  BS Software Engineering • COMSATS University
                 </motion.div>
 
                 {/* Profile Picture */}
@@ -132,6 +132,9 @@ export default function HomePage() {
                 >
                   <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent tracking-wide mb-2">
                     Muhammad Ali Zain Ul Abidin
+                  </h2>
+                 <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent tracking-wide mb-2">
+                    (Zain Najfi)
                   </h2>
                   <p className="text-lg text-gray-400 font-medium">
                     Software Engineer & Full Stack Developer
@@ -206,7 +209,7 @@ export default function HomePage() {
                   <div className="w-14 h-14 mx-auto mb-3 bg-gradient-to-r from-emerald-500 to-cyan-600 rounded-xl flex items-center justify-center shadow-lg">
                     <Globe className="w-6 h-6 text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-1">4+</h3>
+                  <h3 className="text-2xl font-bold text-white mb-1">8+</h3>
                   <p className="text-gray-300 text-sm">Live Projects</p>
                 </div>
                 <div className="text-center">
@@ -220,15 +223,15 @@ export default function HomePage() {
                   <div className="w-14 h-14 mx-auto mb-3 bg-gradient-to-r from-purple-500 to-pink-600 rounded-xl flex items-center justify-center shadow-lg">
                     <GraduationCap className="w-6 h-6 text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-1">4</h3>
+                  <h3 className="text-2xl font-bold text-white mb-1">16</h3>
                   <p className="text-gray-300 text-sm">Years Education</p>
                 </div>
                 <div className="text-center">
                   <div className="w-14 h-14 mx-auto mb-3 bg-gradient-to-r from-orange-500 to-red-600 rounded-xl flex items-center justify-center shadow-lg">
                     <Users className="w-6 h-6 text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-1">10+</h3>
-                  <p className="text-gray-300 text-sm">Months Internship</p>
+                  <h3 className="text-2xl font-bold text-white mb-1">1.5</h3>
+                  <p className="text-gray-300 text-sm">Years of Experience</p>
                 </div>
               </motion.div>
             </div>

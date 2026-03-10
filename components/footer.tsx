@@ -21,13 +21,13 @@ export function Footer() {
                 </div>
               </div>
               <div>
-                <div className="font-bold text-lg text-white">Muhammad Ali Zain Ul Abidin</div>
+                <div className="font-bold text-lg text-white">Zain Najfi</div>
                 <div className="text-sm text-gray-400">Full Stack Developer</div>
               </div>
             </div>
             <p className="text-gray-400 text-sm max-w-sm leading-relaxed">
-              Bridging Design and Functionality with Modern Web Technologies. Specialized in React, Node.js, Flutter,
-              and AI/ML enthusiast creating seamless digital experiences.
+              Bridging Design and Functionality with Modern Web Technologies. Specialized in MERN Stack
+              and AI enthusiast creating seamless digital experiences.
             </p>
             <div className="flex items-center space-x-2 pt-2">
               <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
@@ -50,6 +50,13 @@ export function Footer() {
                 className="flex items-center text-gray-400 hover:text-blue-400 text-sm transition-colors group"
               >
                 <span>Experience</span>
+                <ExternalLink size={14} className="ml-1 opacity-0 group-hover:opacity-100 transition-opacity" />
+              </Link>
+              <Link
+                href="/resume"
+                className="flex items-center text-gray-400 hover:text-blue-400 text-sm transition-colors group"
+              >
+                <span>Resume</span>
                 <ExternalLink size={14} className="ml-1 opacity-0 group-hover:opacity-100 transition-opacity" />
               </Link>
               <Link
@@ -110,7 +117,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-700/50 mt-12 pt-8 text-center">
-          <p className="text-sm text-gray-400">&copy; 2024 - 2025 Muhammad Ali Zain Ul Abidin. All rights reserved.</p>
+          <p className="text-sm text-gray-400">&copy; 2024 - 2026 Zain Najfi. All rights reserved.</p>
         </div>
       </div>
     </footer>

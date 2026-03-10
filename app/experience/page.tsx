@@ -8,6 +8,27 @@ import { PageBackground } from "@/components/page-background"
 const experiences = [
   {
     id: 1,
+    title: "MERN Stack Developer",
+    company: "MAAZ Informatics",
+    duration: "5 months",
+    location: "Onsite - Sargodha, Pakistan",
+    period: "January 2026 - Present",
+    description:
+      "As a MERN Stack Developer, I specialize in building robust, full-stack web applications using a unified JavaScript ecosystem. I bridge the gap between user-facing interfaces and server-side logic, ensuring seamless data flow from the database to the browser.",
+    achievements: [
+      "Re-designed the company's official website",
+      "Built 15+ reusable React components for the design system",
+      "Improved page load times by 40% through code optimization",
+      "Created comprehensive CMS for the content management of whole website",
+      "Participated in code reviews and maintained high code quality standards",
+    ],
+    technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "Framer Motion", "JavaScript", "Multer", "JWT", "Bootstrap", "Git", "Figma"],
+    icon: Code,
+    color: "from-blue-500 to-cyan-600",
+    type: "Development",
+  },
+  {
+    id: 2,
     title: "Frontend Developer Intern",
     company: "TrustNexus",
     duration: "4 months",
@@ -28,7 +49,7 @@ const experiences = [
     type: "Development",
   },
   {
-    id: 2,
+    id: 3,
     title: "Summer Intern",
     company: "FES Higher Education Consultants Pvt. Ltd.",
     duration: "3 months",
@@ -48,7 +69,7 @@ const experiences = [
     type: "Consulting",
   },
   {
-  id: 3,
+  id: 4,
   title: "Frontend Developer Intern",
   company: "Lean Automation",
   duration: "4 months",
@@ -76,7 +97,7 @@ const experiences = [
   type: "Development",
 },
 {
-  id: 4,
+  id: 5,
   title: "Freelance Web Developer",
   company: "Fiverr",
   duration: "Ongoing",
@@ -109,15 +130,15 @@ const experiences = [
 
 const education = {
   degree: "BS Software Engineering",
-  university: "COMSATS University Islamabad, Abbottabad Campus",
+  university: "COMSATS University",
   duration: "2021 - 2025",
-  description: "Focused on creating modern, responsive, and scalable web applications. Completed coursework in software engineering principles, web development, mobile development, and database management.",
+  description: "Focused on creating modern, responsive, and scalable web applications. Completed coursework in software engineering principles, web development, mobile development, game development, AI, ML, and database management.",
   achievements: [
-    "Final Year Project: ConstructCraft - Mobile construction management app",
-    "Strong foundation in React.js, Flutter, and modern web technologies",
+    "Final Year Project: ConstructCraft - Construction Management App",
+    "Strong foundation in React.js, Node.js, MongoDB, Express.js, and modern web technologies",
     "Hands-on experience in both academic and professional settings",
   ],
-  technologies: ["React.js", "Flutter", "Node.js", "Firebase", "TypeScript", "Tailwind CSS"],
+  technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Framer Motion", "JavaScript", "Multer", "JWT", "Bootstrap", "Git", "Figma"],
 }
 
 const skills = [
@@ -144,7 +165,7 @@ export default function ExperiencePage() {
               Professional Experience
             </h1>
             <p className="text-xl text-gray-200 max-w-4xl mx-auto leading-relaxed drop-shadow-sm">
-              My journey in software engineering, showcasing hands-on experience in frontend development, educational
+              My journey in software engineering, showcasing hands-on experience in MERN Stack development, educational
               consulting, and collaborative project delivery.
             </p>
           </motion.div>

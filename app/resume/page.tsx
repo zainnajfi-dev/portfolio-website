@@ -8,7 +8,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 const education = [
   {
     degree: "Bachelor of Science in Software Engineering",
-    institution: "COMSATS University Islamabad",
+    institution: "COMSATS University",
     period: "2021 - 2025",
     description: "Specialized in Web Development, Mobile App Development, Game Development, AI, ML, and Data Science",
   },
@@ -16,30 +16,39 @@ const education = [
 
 const experience = [
   {
+    title: "MERN Stack Developer Intern",
+    company: "MAAZ Informatics",
+    period: "5 months",
+    description:
+      "As a MERN Stack Developer, I specialize in building robust, full-stack web applications using a unified JavaScript ecosystem. I bridge the gap between user-facing interfaces and server-side logic, ensuring seamless data flow from the database to the browser.",
+  },
+  {
     title: "Frontend Developer Intern",
     company: "TrustNexus",
-    period: "6 months",
+    period: "4 months",
     description:
       "Built production-ready UI using React, Tailwind CSS, and animated design systems. Collaborated with cross-functional teams to deliver high-quality user experiences.",
   },
   {
-    title: "Intern",
+    title: "Summer Internship",
     company: "FES Higher Education Consultants Pvt. Ltd.",
     period: "2 months",
     description:
       "Learned global university processes, educational marketing strategies, and student guidance methodologies. Assisted in developing digital marketing campaigns.",
   },
-  {title: "Frontend Developer Intern",
-company: "Lean Automation",
-period: "6 months",
-description:
-  "Worked on developing modern, responsive UI components for industrial automation dashboards using React and Tailwind CSS. Improved performance, implemented clean component structures, and collaborated with senior developers to translate requirements into user-friendly interfaces.",
+  {
+    title: "Web Developer Intern",
+    company: "Lean Automation",
+    period: "6 months",
+    description:
+      "Worked on developing modern, responsive UI components for industrial automation dashboards using React and Tailwind CSS. Improved performance, implemented clean component structures, and collaborated with senior developers to translate requirements into user-friendly interfaces.",
 },
-{title: "Freelance Web Developer",
-company: "Fiverr",
-period: "2024 - Present",
-description:
-  "Delivering modern, responsive websites and custom React-based interfaces for international clients. Built landing pages, business websites, and optimized UI components while ensuring high-quality code, strong communication, and on-time delivery.",
+{
+    title: "Freelance Web Developer",
+    company: "Fiverr",
+    period: "2024 - Present",
+    description:
+      "Delivering modern, responsive websites and custom React-based interfaces for international clients. Built landing pages, business websites, and optimized UI components while ensuring high-quality code, strong communication, and on-time delivery.",
 },
 ]
 

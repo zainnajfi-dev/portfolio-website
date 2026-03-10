@@ -81,7 +81,7 @@ export default function ContactPage() {
     {
       icon: MapPin,
       label: "Location",
-      value: "Islamabad, Pakistan",
+      value: "Lahore, Pakistan",
       href: "#",
       color: "text-emerald-400",
     },
