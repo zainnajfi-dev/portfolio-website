@@ -114,7 +114,7 @@ export default function HomePage() {
                         priority
                         onError={(e) => {
                           const target = e.target as HTMLImageElement;
-                          target.src = "/placeholder-user.jpg.jpg";
+                          target.src = "/placeholderuser.png.png";
                         }}
                       />
                     </div>
