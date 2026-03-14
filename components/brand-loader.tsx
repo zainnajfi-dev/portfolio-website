@@ -134,7 +134,7 @@ export default function BrandLoader() {
             }}
             className="text-2xl font-bold bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent bg-[length:200%_200%] tracking-wide"
           >
-            Zain Najfi
+            Muhammad Ali Zain Ul Abidin
           </motion.h2>
           <motion.p
             initial={{ opacity: 0 }}

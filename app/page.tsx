@@ -20,6 +20,7 @@ import { useState } from "react"
 import type React from "react"
 import Image from "next/image"
 
+
 export default function HomePage() {
   const [formData, setFormData] = useState({
     name: "",
@@ -106,7 +107,7 @@ export default function HomePage() {
                   <div className="relative inline-block">
                     <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-emerald-500/30 shadow-2xl relative">
                       <Image
-                        src="https://drive.google.com/file/d/1yoSehAviNJF_eNNmPW7gR8RHrpTGsiKq/view?usp=sharing"
+                        src="https://drive.google.com/file/d/1nXdhlYe4JKn0cqCnhZeN7-38D8T_1O1d/view?usp=sharing"
                         alt="Muhammad Ali Zain Ul Abidin"
                         width={160}
                         height={160}
@@ -182,7 +183,7 @@ export default function HomePage() {
                   </Link>
                   <Button asChild size="lg" variant="outline" className="btn-modern border-emerald-500/50 text-emerald-300 hover:bg-emerald-500/10 px-8 py-4 text-lg font-semibold">
                     <a
-                      href="https://drive.google.com/file/d/13mDmMKVt5oWv_yuA2WM-VXdxlnVsAfWr/view?usp=drive_link"
+                      href="https://drive.google.com/file/d/1nXdhlYe4JKn0cqCnhZeN7-38D8T_1O1d/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

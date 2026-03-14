@@ -74,7 +74,7 @@ export default function ResumePage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-emerald-600 hover:bg-emerald-700">
               <a
-                href="https://drive.google.com/file/d/13mDmMKVt5oWv_yuA2WM-VXdxlnVsAfWr/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1nXdhlYe4JKn0cqCnhZeN7-38D8T_1O1d/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -89,7 +89,7 @@ export default function ResumePage() {
               className="border-emerald-500 text-emerald-300 hover:bg-emerald-500/10 bg-transparent"
             >
               <a
-                href="https://drive.google.com/file/d/1ABsTTWTTCRuDdnMXrtF52Gp5M7WhdVpK/view?usp=sharing"
+                href="https://drive.google.com/file/d/1nXdhlYe4JKn0cqCnhZeN7-38D8T_1O1d/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
